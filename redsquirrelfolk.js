@@ -21,9 +21,9 @@
 var iFileName = "RedSquirrelfolk.js"; // Optional; This is how the file will be named in the sheet if you import it as a file and not copy-paste its content. Only the first occurrence of this variable will be used
 RequiredSheetVersion(12.999); // Optional; This is the minimum required version number of the sheet for the script to work. If the sheet being used to import the script is of an earlier version, the user will be warned
 
-RaceList["red squirrelfolk"] = { //Object name; Note the use of only lower case! Also note the absence of the word "var" and the use of brackets []
+RaceList["Red Squirrelfolk"] = { //Object name; Note the use of only lower case! Also note the absence of the word "var" and the use of brackets []
 
-	regExpSearch : /^(?=.*something)(?=.*catlike).*$/i, //required; regular expression of what to look for (i.e. now it looks for any entry that has both the words "something" and "catlike" in it, disregarding capitalization). If this looks too complicated, just write: /something catlike/i
+	regExpSearch : /^(?=.*Red)(?=.*Squirrelfolk).*$/i, //required; regular expression of what to look for (i.e. now it looks for any entry that has both the words "something" and "catlike" in it, disregarding capitalization). If this looks too complicated, just write: /something catlike/i
 
 	name : "Red Squirrelfolk", //required; the name to use for the race
 
